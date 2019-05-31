@@ -1,6 +1,7 @@
 * {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  scroll-behavior: smooth; }
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -197,6 +198,9 @@ h2 {
 
 #podDesno {
   justify-content: flex-end; }
+
+.traka:last-child a {
+  margin-left: 15px; }
 
 @media screen and (max-width: 1200px) {
   .okvir {
